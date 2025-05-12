@@ -66,7 +66,7 @@ class DepositMoneyView(TransactionCreateMixin):
 
         return super().form_valid(form)
 
-
+   # Withdraw money view
 class WithdrawMoneyView(TransactionCreateMixin):
     form_class = WithdrawForm
     title = 'Withdraw Money'
