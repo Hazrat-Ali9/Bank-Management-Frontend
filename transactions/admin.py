@@ -1,5 +1,5 @@
 from django.contrib import admin
-
+# admin panel 
 # from transactions.models import Transaction
 from .models import Transaction
 @admin.register(Transaction)
