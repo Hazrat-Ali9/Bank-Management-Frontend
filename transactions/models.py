@@ -2,7 +2,7 @@ from django.db import models
 from accounts.models import UserBankAccount
 # Create your models here.
 from .constants import TRANSACTION_TYPE
-
+# model py
 class Transaction(models.Model):
     account = models.ForeignKey(UserBankAccount, related_name = 'transactions', on_delete = models.CASCADE) # ekjon user er multiple transactions hote pare
     
