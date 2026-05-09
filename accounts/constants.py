@@ -6,5 +6,3 @@ GENDER_TYPE = (
     ('Male', 'Male'),
     ('Female', 'Female'),
 )
-
-# Savings Constants
