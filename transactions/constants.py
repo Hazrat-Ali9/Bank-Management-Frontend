@@ -2,7 +2,7 @@ DEPOSIT = 1
 WITHDRAWAL = 2
 LOAN = 3
 LOAN_PAID = 4
-
+# constant
 TRANSACTION_TYPE = (
     (DEPOSIT, 'Deposite'),
     (WITHDRAWAL, 'Withdrawal'),
