@@ -31,7 +31,7 @@ class DepositForm(TransactionForm):
 
         return amount
 
-
+# from
 class WithdrawForm(TransactionForm):
 
     def clean_amount(self):
