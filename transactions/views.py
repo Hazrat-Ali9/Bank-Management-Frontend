@@ -17,7 +17,7 @@ from transactions.forms import (
     LoanRequestForm,
 )
 from transactions.models import Transaction
-
+# views
 def send_transaction_email(user, amount, subject, template):
         message = render_to_string(template, {
             'user' : user,
